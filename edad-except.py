@@ -13,5 +13,5 @@ while True:  # ciclo while para volver a pedir datos tras excepciones
         
     except ValueError:  # error en tipo de valor ingresado
         print("E R R O R :  Debes ingresar un número entero. Intente nuevamente. \n")
-    except:
+    except TypeError:
         print("Ha ocurrido un error al ingresar dato. Verifique lo ingresado")
